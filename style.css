@@ -2,10 +2,20 @@
 
 html, body {
     margin: 0;
-    font-family: 'Montserrat', sans-serif;  
+    font-family: 'Montserrat', sans-serif; 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
 }
 
 .page-header {
     text-align: center;
+}
+
+#draw {
+    margin: auto;
+    width: 100%;
+    border: 5px solid black;
 }
 
