@@ -1,5 +1,5 @@
 # JS 30 Canvas App #
-Check out the deployed app [HERE]()
+Check out the deployed app [HERE](https://cbarber1984.github.io/js30-canvas-draw/)
 
 ## Objective ##
 - Explore HTML5 Canvas

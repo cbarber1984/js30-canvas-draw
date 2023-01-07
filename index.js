@@ -6,7 +6,7 @@ ctx.strokeStyle = '#BADA55';
 ctx.lineJoin = 'round';
 ctx.lineCap = 'round';
 ctx.lineWidth = 100;
-// ctx.globalCompositeOperation = 'multiply';
+//  ctx.globalCompositeOperation = 'multiply';
 
 let isDrawing = false;
 let lastX = 0;
@@ -32,16 +32,19 @@ function draw(e) {
     hue = 0;
   }
 
-  if(ctx.lineWidth >= 100 || ctx.lineWidth <= 1) {
+  if (ctx.lineWidth >= 100 || ctx.lineWidth <= 1) {
     direction = !direction;
   }
+
   if (direction){
     ctx.lineWidth++;
   } else {
     ctx.lineWidth--;
   }
 
-  ctx.lineWidth++;
+  
+
+
 }
 
 canvas.addEventListener('mousedown', (e) => {
